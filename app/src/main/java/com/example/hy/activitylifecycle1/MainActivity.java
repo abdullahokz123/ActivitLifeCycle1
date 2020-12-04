@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         //Log.d("ActivityLifeCycle", "onResume() was called");
 
-        Toast.makeText(MainActivity.this, "onResume() is called", Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "onResume() method is called", Toast.LENGTH_LONG).show();
     }
 
    /* @Override
