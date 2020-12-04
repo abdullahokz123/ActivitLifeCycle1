@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         super.onStop();
         //Log.d("ActivityLifeCycle", "onStop() was called");
 
-        Toast.makeText(MainActivity.this, "onStop() is called", Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "onStop() method is called", Toast.LENGTH_LONG).show();
     }
 
     @Override
