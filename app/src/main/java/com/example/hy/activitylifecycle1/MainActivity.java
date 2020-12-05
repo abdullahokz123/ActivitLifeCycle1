@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
         super.onRestart();
         //Log.d("ActivityLifeCycle", "onRestart() was called");
 
-        Toast.makeText(MainActivity.this, "onRestart() is called", Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "onRestart() method is called", Toast.LENGTH_LONG).show();
 
     }
 
